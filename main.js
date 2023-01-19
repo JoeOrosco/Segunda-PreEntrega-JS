@@ -100,7 +100,7 @@ const finalizarReserva = (reservas) => {
         alert("Su reserva fue realizado con exito! \n Gracias por visitar Come House 🏡😎")
     } else {
         /* En la consola se mostrara una tabla donde estara el codigo de reserva que se creo, con el cual el usuario podra eliminar la reserva que el queira. */  
-        const codigoReserva = prompt("Ingrese el codigo de la reserva a eliminar.❌ \n Si no ingresa nada se eliminara la ultima reserva que hizo")
+        const codigoReserva = prompt("Ingrese el codigo de la reserva a eliminar.❌ \n Si no ingresa nada se eliminara la ultima reserva que hizo ⚠")
         eliminarReserva(codigoReserva)
     }
 }
